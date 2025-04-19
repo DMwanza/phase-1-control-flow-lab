@@ -1,38 +1,54 @@
-function scuberGreetingForFeet(feet){
-  // Write your code here!
-  // let result;
+// function scuberGreetingForFeet(feet){
+//   // Write your code here!
+//   // let result;
 
-  // if (feet<=400){
-  //   result= "This one is on me!"
-  // }
-  //   else if(feet>2000 && feet<=2500){
-  //     result= "I will gladly take your thirty bucks."
-  //   }
-  //   else if (feet>2500){
-  //     result = "No can do."
-  //   }
-  //   return result
-  let result
-  if(feet<=400){
-    result="This one is on me!"
-  }
-  else if(feet>2000 && feet<=2500){
-    result="I will gladly take your thirty bucks."
-  }
-  else if(feet>2500){
-    result="No can do."
-  }
+//   // if (feet<=400){
+//   //   result= "This one is on me!"
+//   // }
+//   //   else if(feet>2000 && feet<=2500){
+//   //     result= "I will gladly take your thirty bucks."
+//   //   }
+//   //   else if (feet>2500){
+//   //     result = "No can do."
+//   //   }
+//   //   return result
+//   let result
+//   if(feet<=400){
+//     result="This one is on me!"
+//   }
+//   else if(feet>2000 && feet<=2500){
+//     result="I will gladly take your thirty bucks."
+//   }
+//   else if(feet>2500){
+//     result="No can do."
+//   }
   
-  return result
-  }
+//   return result
+//   }
 
 
-function ternaryCheckCity(city){
-  // Write your code here!
-  // return city ==="NYC"?"Ok, sounds good.":"No go."
-  return city==="NYC"?"Ok, sounds good.":"No go."
+// function ternaryCheckCity(city){
+//   // Write your code here!
+//   // return city ==="NYC"?"Ok, sounds good.":"No go."
+//   return city==="NYC"?"Ok, sounds good.":"No go."
    
 
+// }
+scuberGreetingForFeet=(feet)=>{
+   if(feet<=400){
+    return 'This one is on me!'
+   }
+   else if(feet>2000 && feet<=2500){
+    return 'I will gladly take your thirty bucks.'
+   }
+   else{
+    return 'No can do.'
+   }
+
+
+}
+ternaryCheckCity=(city)=>{
+  return city==='NYC'?'Ok, sounds good.':"No go."
 }
 
 function switchOnCharmFromTip(tip){ 
